@@ -2,8 +2,8 @@
 VERSION = 4.5
 
 # these variables can be configured by e.g. `make SCRONTABS=/different/path`
-PREFIX = /usr/local
-CRONTAB_GROUP = wheel
+PREFIX = /usr
+CRONTAB_GROUP = root
 SCRONTABS = /etc/cron.d
 CRONTABS = /var/spool/cron/crontabs
 CRONSTAMPS = /var/spool/cron/cronstamps
